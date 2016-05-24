@@ -1,0 +1,260 @@
+
+body{
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    background:#ffffff;
+    width:100%;
+    margin: 0 auto;
+    color:#4a4a4a;
+}
+
+.container{width:100%;margin:0 auto;}
+header,section,footer{float:left;width:100%;}
+section img {width:100%;}
+a:link{color:#4a4a4a;text-decoration: none}
+a:visited{color:#4a4a4a;}
+a:hover{cursor: pointer}
+/*NAV*/
+header{
+    background:#fafafa;
+}
+.clear{clear:both;}
+.mainNavWrap,.Pro-one,.PortHeaderWrap,.cardWrap,.contactWrap,.footerNav{width:90%; margin:0 auto;}
+.mainNavWrap h1{
+    margin:20px auto;
+    text-align: center;
+    color: #69B578;
+}
+.mainNav{
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.mainNav li{
+    padding:10px;
+    background:#fff;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+/*Profile Section*/
+.mainContent{
+    font-size: 18px;
+    line-height: 22px;
+    background:#fafafa;
+}
+.profile-img{
+    width:75%;
+    padding:40px 0 15px 0;
+}
+.mainContent p {
+    line-height: 30px;
+    padding: 20px;
+}
+/*BODY*/
+
+.mainPortfolio,.mainContent{
+    text-align:center;
+}
+
+/*Portfolio section*/
+.cardWrap{padding:40px 0;}
+.mainPortfolio{
+    background:#fff; 
+}
+.PortHeader{
+    text-transform: uppercase;
+    font-size:16px;
+    padding:40px 0;
+    color: #69B578;
+}
+.card{
+    padding: 15px 0;
+}
+.cardWrap .card.last{
+    padding-right:0;
+
+}
+.card .cardContent {
+
+}
+.card .cardContent h2{
+    font-size:18px;
+}
+.card .cardContent p {
+    line-height: 20px;
+}
+
+
+/*FOOTER*/
+footer{
+    background:#fafafa;
+}
+.contactWrap{padding-bottom:20px;}
+.contactWrap h1{
+    text-transform: uppercase;
+    font-size:16px;
+    padding:40px 0 20px 0;
+    text-align:center;
+    color: #69B578;
+}
+.contactWrap p{
+    line-height: 30px;
+    padding: 20px;
+    text-align:center;
+}
+.contactWrap ul{
+    padding:0;
+    margin:0;
+}
+.contactWrap ul li{
+    text-align:center;
+    padding:10px;
+    list-style: none;
+
+}
+.footerNav{border-top:1px solid #e7e7e7;}
+.footerNav .footerName{
+    font-size:14px;
+    float: left;
+    line-height: 30px;
+    margin: 0;
+    padding: 20px 10px;
+}
+.footerNav .backToTop{
+    color: #4a4a4a;
+    text-transform: uppercase;
+    font-size: 14px;
+    float: right;
+    line-height: 30px;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+.footerNavMenu{
+    padding:0;
+    margin:0;
+}
+.footerNavMenu li{
+    list-style: none;
+    float:left;
+    line-height: 30px;
+    margin: 0;
+    padding: 20px 10px;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:14px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+    .footerNavMenu{display:none;}
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+/* Styles */
+    .mainNavWrap .mainHeader{
+        padding:40px 0;
+    }
+    .mainNavWrap .mainNav{
+        margin:0 auto;
+        width: 400px;
+        text-align: center;
+        float: inherit;
+
+    }
+    .mainNavWrap .mainNav li{
+        float:left;
+        background:none;
+        padding:0 30px;
+
+    }
+    .Pro-one{
+        padding:40px 0 80px 0;
+    }
+    .profile-img{
+        width: 40%;
+        padding: 40px 0 15px 0;
+        float: right;
+        margin-left: 25px;
+    }
+    .mainContent p {
+        text-align: left;
+    }
+    .cardWrap .card{
+        width:48%;
+        float:left;
+        padding:15px 5px;
+    }
+
+    .backToTop{display:none;}
+    .footerNavMenu{
+        float:right;
+    }
+
+}
+
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1024px) {
+/* Styles */
+    .mainNavWrap .mainHeader{
+        padding:40px 0;
+    }
+    .mainNavWrap .mainNav{
+        margin:0 auto;
+        width: 400px;
+        text-align: center;
+        float: inherit;
+
+    }
+    .mainNavWrap .mainNav li{
+        float:left;
+        background:none;
+        padding:0 30px;
+
+    }
+    .Pro-one{
+        padding:40px 0 80px 0;
+        display:inline-block;
+    }
+    .profile-img{
+        width: 40%;
+        padding: 40px 0 15px 0;
+        float: right;
+        margin-left: 25px;
+    }
+    .mainContent p {
+        text-align: left;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .cardWrap .card{
+        width:32%;
+        float:left;
+        padding:15px 5px;
+    }
+    .footerNav{}
+    .backToTop{display:none;}
+    .footerNavMenu{
+        float:right;
+    }
+    .mainNavWrap .mainHeader{
+        float:left;
+    }
+    .mainNavWrap .mainNav{
+        float: right;
+        padding: 40px 0;
+        margin: 20px 0;
+    }
+
+
+
+}
