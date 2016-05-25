@@ -148,12 +148,13 @@ footer{
     text-transform: uppercase;
     font-size:14px;
 }
+.backToTop,.footerNavMenu{display:none;}
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 425px) {
 /* Styles */
-    .footerNavMenu{display:none;}
-
+    
+    .backToTop{display:block;}
 }
 
 
@@ -193,11 +194,10 @@ footer{
         float:left;
         padding:15px 5px;
     }
-
-    .backToTop{display:none;}
     .footerNavMenu{
         float:right;
     }
+    .footerNavMenu{display:block;}
 
 }
 
@@ -254,7 +254,7 @@ footer{
         padding: 40px 0;
         margin: 20px 0;
     }
-
+    .footerNavMenu{display:block;}
 
 
 }
